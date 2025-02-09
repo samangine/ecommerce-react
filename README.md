@@ -44,3 +44,6 @@ $ npm run build
 * Firebase auth provider authentication
 * Account creation and edit
 
+
+Cloning the Repository:
+– If the destination doesn’t exist or is empty, it clones the remote repository into that directory.

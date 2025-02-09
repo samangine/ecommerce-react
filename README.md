@@ -50,3 +50,8 @@ Appended new line.
 Appended new line.
 Update README.md with appended content.
 Java API for GitHub
+
+The action tries to open PR and then checks if the PR is mergeable. 
+ If mergeable then action returns PR id, if not then process exits with error code 1 to prevent later execution. Now maximum time to wait for PR state is 3 sec.
+
+

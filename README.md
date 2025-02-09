@@ -48,3 +48,4 @@ $ npm run build
 Appended new line.
 Appended new line.
 Appended new line.
+Update README.md with appended content.

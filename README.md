@@ -44,3 +44,7 @@ $ npm run build
 * Firebase auth provider authentication
 * Account creation and edit
 
+
+Appended new line.
+Appended new line.
+Appended new line.

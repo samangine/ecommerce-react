@@ -55,8 +55,4 @@ The action tries to open PR and then checks if the PR is mergeable.
 
 Destination Check:
 – The code first verifies if the destination directory exists and is nonempty.
-– If it exists, it looks for the “.git” folder. If found, it uses Git.open(localPath) to open the repository. Otherwise, it reports an error (you could choose to handle this case differently).Destination Check:
-– The code first verifies if the destination directory exists and is nonempty.
-– If it exists, it looks for the “.git” folder. If found, it uses Git.open(localPath) to open the repository. Otherwise, it reports an error (you could choose to handle this case differently).Destination Check:
-– The code first verifies if the destination directory exists and is nonempty.
 – If it exists, it looks for the “.git” folder. If found, it uses Git.open(localPath) to open the repository. Otherwise, it reports an error (you could choose to handle this case differently).

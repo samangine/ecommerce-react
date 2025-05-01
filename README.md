@@ -44,3 +44,20 @@ $ npm run build
 * Firebase auth provider authentication
 * Account creation and edit
 
+
+Appended new line.
+Update README.md with appended content.
+Java API for GitHub
+
+The action tries to open PR and then checks if the PR is mergeable. 
+ If mergeable then action returns PR id, if not then process exits with error code 1 to prevent later execution. Now maximum time to wait for PR state is 3 sec.
+
+
+Destination Check:
+– The code first verifies if the destination directory exists and is nonempty.
+– If it exists, it looks for the “.git” folder. If found, it uses Git.open(localPath) to open the repository. Otherwise, it reports an error (you could choose to handle this case differently).
+
+Cloning the Repository:
+– If the destination doesn’t exist or is empty, it clones the remote repository into that directory.
+Cloning the Repository:
+– If the destination doesn’t exist or is empty, it clones the remote repository into that directory.
